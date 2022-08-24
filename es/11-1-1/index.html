@@ -103,7 +103,7 @@ var translations = {
         
         Indicador 11.1.1 -
         
-        Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas - Indicadores para los Objetivos de Desarrollo Sostenible
+        Proportion of urban population living in slums, informal settlements or inadequate housing - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220823101429">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220824145444">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -381,7 +381,7 @@ data-event-label="high"
                         
                         Indicador 11.1.1
                         
-                        <span class="lead-copy">Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas</span>
+                        <span class="lead-copy">Proportion of urban population living in slums, informal settlements or inadequate housing</span>
                     </h1>
                 </div>
             </div>
@@ -392,8 +392,27 @@ data-event-label="high"
   
 
   
+<div class="row metadata-available-indicator">
+  <div class="col-xs-12">
+    <h2></h2>
+  </div>
+</div>
+
 
   
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+
+
+    </div>
+</div>
+
 
   
 
@@ -406,12 +425,12 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_11-1-1'
   data-id="11-1-1"
-  data-country="Australia"
+  data-country="UK"
   data-charttitle="Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="Percentage"
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
@@ -420,15 +439,997 @@ data-event-label="high"
   data-graphlimits="[]"
   data-stackeddisaggregation=""
   data-graphannotations="[]"
-  data-graphtargetlines="null"
-  data-graphseriesbreaks="null"
+  data-graphtargetlines="[]"
+  data-graphseriesbreaks="[]"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Dwellings (%)&quot;,&quot;Households (%)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Decent homes criteria&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Minimum Standard (HHSRS)&quot;,&quot;Modern facilities and services&quot;,&quot;Repair&quot;,&quot;Thermal comfort&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Decent homes criteria&quot;},{&quot;name&quot;:&quot;Urbanisation sub-category&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;City centre&quot;,&quot;Other rural area&quot;,&quot;Other urban centre&quot;,&quot;Rural residential&quot;,&quot;Suburban residential&quot;,&quot;Village centre&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Urbanisation sub-category&quot;},{&quot;name&quot;:&quot;Sub-national area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;London and South East&quot;,&quot;Northern&quot;,&quot;Rest of England&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sub-national area&quot;},{&quot;name&quot;:&quot;Age of oldest person&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;59 and under&quot;,&quot;60 and over&quot;,&quot;75 and over&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age of oldest person&quot;},{&quot;name&quot;:&quot;Age of youngest person&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;15 and under&quot;,&quot;16 and over&quot;,&quot;4 and under&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age of youngest person&quot;},{&quot;name&quot;:&quot;Disability status (household)&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Disabled (GSS harmonised)&quot;,&quot;Non-disabled (GSS harmonised)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Disability status (household)&quot;},{&quot;name&quot;:&quot;Ethnicity of household reference person (HRP)&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;All minority&quot;,&quot;Asian&quot;,&quot;Black&quot;,&quot;other&quot;,&quot;White&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Ethnicity of household reference person (HRP)&quot;},{&quot;name&quot;:&quot;Income quintile (household)&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;1st quintile (lowest)&quot;,&quot;2nd quintile&quot;,&quot;3rd quintile&quot;,&quot;4th quintile&quot;,&quot;5th quintile (highest)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Income quintile (household)&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Percentage (%)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Observation status&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Observation status&quot;},{&quot;name&quot;:&quot;Unit multiplier&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Unit multiplier&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://sdg-tutorials.github.io/data/es/headline/11-1-1.csv" class="btn btn-primary btn-download" download="indicator_11-1-1.csv" tabindex="0" role="button">Descargar CSV global</a>
+    
+    <a href="https://sdg-tutorials.github.io/data/es/data/11-1-1.csv" class="btn btn-primary btn-download" download='indicator_11-1-1.csv' tabindex='0' role='button'>Descargar CSV fuente</a>
+
+    <p class="no-js-disaggregation-hint">Descargar el CSV de origen para los desgloses</p>
+
+    
+    <h3>Datos principales</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">Units</th>
+        
+        
+        
+        <th scope="col">Series</th>
+        
+        
+        
+        <th scope="col">Observation status</th>
+        
+        
+        
+        <th scope="col" class="table-value">Unit multiplier</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2008</td>
+          
+          
+          
+          <td>33.0949066157</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2008</td>
+          
+          
+          
+          <td>32.7547843292</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>30.094492435</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>29.5503258029</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>26.522</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>25.936</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>23.574</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>23.22</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>21.777</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>21.582</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>20.579246876</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>20.1127675134</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>19.8414390583</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>19.4551968369</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>19.4088030851</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>19.138615588</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>19.9069846227</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>19.6006397397</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>18.8239362901</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>18.4565116619</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>17.8432552808</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>17.2641541268</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>16.989397678</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Dwellings (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>16.5944101094</td>
+          
+          
+          
+          <td>Percentage (%)</td>
+          
+          
+          
+          <td>Households (%)</td>
+          
+          
+          
+          <td>Normal value</td>
+          
+          
+          
+          <td class="table-value">Units</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+    
+  </div>
+
+  
+  <div id="datatableFooter">
+    
+    <p>Fuente: Department for Levelling Up, Housing and Communities</p>
+    
+    
+    <p>Área geográfica: UK</p>
+    
+    
+    <p>Unidad de medida: Percentage</p>
+    
+    
+    <p>Nota: </p>
+    
+  </div>
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Para la alternativa de datos tabulares, véase la pestaña Tabla.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gráfico</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Tabla</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Aviso:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas</h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Department for Levelling Up, Housing and Communities</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>UK</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button id="btnSave" title="Descargar gráfico como imagen" class='btn btn-primary btn-download'>
+          Descargar imagen del gráfico
+        </button><!-- 
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Haga clic para ordenar por esta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Department for Levelling Up, Housing and Communities</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>UK</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unidad de medida:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Datos actualizados por última vez:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -642,10 +1643,34 @@ data-event-label="Change to indicator.sources tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row">Datos actualizados por última vez </th>
+        <td>
           
+            Aug 24, 2022
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Metadatos actualizados por última vez </th>
+        <td>
           
+            Aug 24, 2022
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -949,6 +1974,196 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Department for Levelling Up, Housing and Communities</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://www.gov.uk/government/statistical-data-sets/dwelling-condition-and-safety" target="_blank">
+                Link <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
             </article>
         </div>
@@ -1058,12 +2273,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220823101429'></script>
+<script src='/site/assets/js/sdg.js?v=20220824145444'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220823101429"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220824145444"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
